@@ -1,0 +1,15 @@
+defmodule BusinessLogic.ShoppingCartController do
+  use BusinessLogic.Web, :controller
+  alias ShoppingCart.Total
+  
+  def index(conn, _parms) do
+    contacts =  %{name: "Gumbo", phone: "(801) 555-5555"}
+    render(conn, "index.json", contacts: contacts)
+  end
+
+  def total(conn, _parms) do
+    contacts =  %{name: "Gumbo", phone: "(801) 555-5555"}
+    render(conn, "index.json", contacts: contacts)
+  end
+
+end
