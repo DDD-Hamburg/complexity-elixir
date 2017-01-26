@@ -1,1 +1,3 @@
 *.ex linguist-language=Elixir
+*.exs linguist-language=Elixir
+priv/static/js/* linguist-vendored
